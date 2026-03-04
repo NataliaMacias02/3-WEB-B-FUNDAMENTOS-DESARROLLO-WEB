@@ -1,0 +1,56 @@
+body{
+    background-color: rgb(109, 0, 0);
+    color: #fff;
+}
+
+h1{
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#miParrafo{
+    color: deeppink;
+}
+
+.parrafo1{
+    color: orange;
+}
+
+p{
+    color: cornflowerblue;
+}
+
+/* Ejemplo position */
+.parent{
+    background-color: rgb(119, 2, 47);
+    width: 400px;
+    height: 300px;
+    border: 5px solid white;
+    border-radius: 15px;
+    position: sticky; /* activa las cordenadas */
+    top: 20%;
+}
+.parent h1{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 40px;
+    bottom: 60px;
+    z-index: 2;
+}
+.parent img{
+    position: absolute;
+}
+.orange{
+    right: 0;
+    top: 7%;
+    z-index: 1;
+    width: 250px;
+    transform: rotate(32deg);
+}
+.leaf{
+    bottom: 10%;
+    left: -8%;
+    z-index: 3;
+    transform: rotate(-32deg);
+}
