@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #e5dfc1;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+
+    padding: 20px 0;
+    border-bottom: 1px solid #AA7F66;
+    box-shadow: 3px 3px 5px #7f5836;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 0.9rem;
+}
+.box-start{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+
+nav a{
+    color: #000000;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #443025;
+}
+
+.box-end{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.btn-inicio{
+    border: 1px solid #443025;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.btn-inicio{
+    border: 1px solid #443025;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.btn-unete{
+    border: 1px solid #443025;
+    padding: 8px 16px;
+    border-radius: 20px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    max-width: 800px;
+    margin: auto;
+    height: 500px;
+}
+
+/* COLUMNA IZQUIERDA */
+
+.main-start{
+    width: 40%;
+    background-color: #ec9c9d;
+    color: #443025;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    padding: 40px;
+    gap: 20px;
+}
+
+.main-start h1{
+    font-size: 2rem;
+}
+
+.auth-buttons-main{
+    display: flex;
+    gap: 10px;
+}
+
+/* COLUMNA DERECHA */
+
+.main-end{
+    flex: 1;
+    background-color: #e5dfc1;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* PRODUCTOS */
+
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    padding: 20px;
+    gap: 20px;
+}
+
+.card{
+    width: 120px;
+    text-align: center;
+}
+
+.card img{
+    width: 80px;
+}
+
+/* BENEFICIOS */
+
+.benefits{
+    background-color: #d9d2b6;
+    padding: 20px;
+    text-align: center;
+}
+
+.benefits .title{
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.stars{
+    display: flex;
+    justify-content: space-around;
+}
+
+.star-item{
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+/*
+h1{
+    font-family: "Rubik Puddles", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color: #0b3f25;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+
+
+    background-color: #CFDD9D;
+    border: 2px solid #447A5F;
+    width: 600px;
+    height: 500px;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    height: 100px;
+
+    background-color: #a30e4c;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+.tres{
+    background-color: #EA6993;
+    flex-shrink: 3;
+}
+*/
